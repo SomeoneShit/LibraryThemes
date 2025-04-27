@@ -27,7 +27,6 @@ local redzlib = {
     ["Color Theme"] = Color3.fromRGB(255, 165, 0),  -- Laranja vibrante (lembrando o Flame Fruit)
     ["Color Text"] = Color3.fromRGB(255, 255, 255),  -- Branco, para boa legibilidade
     ["Color Dark Text"] = Color3.fromRGB(200, 200, 200),  -- Cinza claro para textos secundários
-		}
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
