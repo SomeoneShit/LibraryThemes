@@ -17,16 +17,17 @@ local PlayerMouse = Player:GetMouse()
 local redzlib = {
 	Themes = {
 		Main = {
-			["Color Hub 1"] = ColorSequence.new({
-    ColorSequenceKeypoint.new(0.00, Color3.fromRGB(35, 35, 35)),
-    ColorSequenceKeypoint.new(0.50, Color3.fromRGB(45, 45, 45)),
-    ColorSequenceKeypoint.new(1.00, Color3.fromRGB(35, 35, 35))
-}),
-["Color Hub 2"] = Color3.fromRGB(45, 45, 45),
-["Color Stroke"] = Color3.fromRGB(60, 60, 60),
-["Color Theme"] = Color3.fromRGB(75, 100, 255),
-["Color Text"] = Color3.fromRGB(245, 245, 245),
-["Color Dark Text"] = Color3.fromRGB(200, 200, 200)
+    ["Color Hub 1"] = ColorSequence.new({
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(35, 35, 35)),  -- Fundo escuro
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(50, 50, 50)),  -- Transição suave
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(35, 35, 35))   -- Fundo escuro
+    }),
+    ["Color Hub 2"] = Color3.fromRGB(45, 45, 45),  -- Fundo escuro e neutro
+    ["Color Stroke"] = Color3.fromRGB(100, 100, 100),  -- Borda suave
+    ["Color Theme"] = Color3.fromRGB(255, 165, 0),  -- Laranja vibrante (lembrando o Flame Fruit)
+    ["Color Text"] = Color3.fromRGB(255, 255, 255),  -- Branco, para boa legibilidade
+    ["Color Dark Text"] = Color3.fromRGB(200, 200, 200),  -- Cinza claro para textos secundários
+		}
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
